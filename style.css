@@ -1,0 +1,90 @@
+/*
+ * setting main tag bg color, height and margins
+ */
+main{
+    background: rgb(252,252,252);
+    height: 100%;
+    margin:20px 0 0;
+}
+
+main .user-background{
+    min-height: 250px;
+    position: relative;
+    width: 100%;
+    padding:150px 0 10px 0;
+}
+
+/*
+ * Setting user background image positioned absolutely
+ */
+.user-background > div{
+    background:url(./images/bg2.jpg) center center;
+    background-size:cover;
+    width:100%;
+    height: 250px;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+/*
+ * Setting user avatar as a background image and positioned relative
+ */
+div.avatar{
+    border-radius:50%;
+    background: url(images/mike.png) center center;
+    background-size: cover;
+    width:150px;
+    height:150px;
+    position: relative;
+    margin: 0 auto;
+    z-index: 2;
+}
+
+/*
+ * Setting the width of skill progress bars
+ * according to the skill knowledge in %
+ */
+
+.skills .determinate.html{
+    width:90%;
+}
+
+.skills .determinate.css{
+    width:85%;
+}
+
+.skills .determinate.js{
+    width:80%;
+}
+
+.skills .determinate.angular{
+    width:85%;
+}
+
+.skills .determinate.python{
+    width:50%;
+}
+
+/*
+ * Setting background image for a portfolio item.
+ * To set different images to a portfolio item - just add a class
+ * and change url of the image
+ */
+.portfolio-image{
+    min-height: 250px;
+    background:url(images/office.jpg) center center;
+    background-size:cover;
+}
+
+/*
+ * Setting default sizing for images in contacts section
+ */
+#contacts img{
+    width:40px;
+    margin:0 10px;
+}
+
+#contacts .card{
+    padding-bottom:30px;
+}

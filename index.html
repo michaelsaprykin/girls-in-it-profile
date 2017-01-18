@@ -1,0 +1,594 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"
+            integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+            crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js"></script>
+</head>
+<body>
+
+<!-- Header section of the page. Contains navigation links to different pages ( main, portfolio ) -->
+<header class="main-header">
+    <nav class="main-nav">
+        <div class="nav-wrapper light-blue">
+            <div class="container">
+                <div class="row">
+                    <a href="#top-section" class="brand-logo waves-block waves-effect waves-light">
+                        Mike Saprykin
+                    </a>
+                    <!-- /.brand-logo waves-block waves-effect waves-light -->
+                    <ul id="nav-mobile" class="right">
+                        <li class="active waves-effect waves-block waves-light">
+                            <a href="#top-section">
+                                About me
+                            </a>
+                        </li>
+                        <!-- /.active waves-effect waves-block waves-light -->
+                        <li class="waves-effect waves-block waves-light">
+                            <a href="#portfolio">
+                                Portfolio
+                            </a>
+                        </li>
+                        <!-- /.waves-effect waves-block waves-light -->
+                        <li class="waves-effect waves-block waves-light">
+                            <a href="#contacts">
+                                Contacts
+                            </a>
+                        </li>
+                        <!-- /.waves-effect waves-block waves-light -->
+                    </ul>
+                    <!-- /#nav-mobile.right -->
+                </div>
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </div>
+        <!-- /.nav-wrapper -->
+    </nav>
+    <!-- /.main-nav -->
+</header>
+<!-- /.main-header -->
+
+<!-- Main content of the page is placed in the main tag -->
+<main class="main-content">
+
+    <!-- Top section of the page. Contains user avatar, background image and contact info -->
+    <section id="top-section">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m12">
+                    <div class="card hoverable">
+                        <!-- .user-background block.Contains user avatar, background image blocks and images,
+                              defined in style.css  -->
+                        <div class="waves-effect waves-block waves-light user-background">
+                            <div class="waves-effect waves-block activator"></div>
+                            <!-- /.waves-effect waves-block -->
+                            <!-- Avatar image -->
+                            <div class="waves-effect waves-block waves-light activator avatar z-depth-3"></div>
+                            <!-- /.waves-effect waves-block waves-light avatar z-depth-3 -->
+                            <!-- -->
+                        </div>
+                        <!-- /.waves-effect waves-block waves-light user-background activator -->
+
+                        <!-- Content of the card. Contains positive qualities of the user -->
+                        <div class="card-content">
+                            <div class="row">
+                                <div class="col m2 center-align">
+                                    <p class="card-title activator grey-text text-darken-4">
+                                        3+
+                                    </p>
+                                    <!-- /.card-title activator grey-text text-darken-4 -->
+                                    <p class="medium-small grey-text">
+                                        years of working experience
+                                    </p>
+                                    <!-- /.medium-small grey-text -->
+                                </div>
+                                <!-- /.col m2 center-align -->
+
+                                <div class="col m2 center-align">
+                                    <p class="card-title activator grey-text text-darken-4">
+                                        10+
+                                    </p>
+                                    <!-- /.card-title activator grey-text text-darken-4 -->
+                                    <p class="medium-small grey-text">
+                                        finished projects
+                                    </p>
+                                    <!-- /.medium-small grey-text -->
+                                </div>
+                                <!-- /.col m2 center-align -->
+
+                                <div class="col m4 center-align">
+                                    <span class="card-title activator grey-text text-darken-4">
+                                        Mike Saprykin
+                                    </span>
+                                    <p class="medium-small grey-text">
+                                        Front-end developer <br>
+                                        Buddhasoft
+                                    </p>
+                                    <!-- /.medium-small grey-text -->
+                                </div>
+                                <!-- /.col m4 center-align -->
+
+                                <div class="col m2 center-align">
+                                    <p class="card-title activator grey-text text-darken-4">
+                                        3
+                                    </p>
+                                    <!-- /.card-title activator grey-text text-darken-4 -->
+                                    <p class="medium-small grey-text">
+                                        Skill certificates
+                                    </p>
+                                    <!-- /.medium-small grey-text -->
+                                </div>
+                                <!-- /.col m2 center-align -->
+
+                                <div class="col m2 center-align">
+                                    <p class="card-title activator grey-text text-darken-4">
+                                        Contact now!
+                                    </p>
+                                    <!-- /.card-title activator grey-text text-darken-4 -->
+                                    <i class="activator small material-icons blue-text">
+                                        person_pin
+                                    </i>
+                                    <!-- /.activator small material-icons blue-text -->
+                                </div>
+                                <!-- /.col m2 center-align -->
+                            </div>
+                            <!-- /.row -->
+                        </div>
+                        <!-- /.card-content -->
+                        <!-- Card content, which will be revealed on click of any HTML element with .activator class
+                             in current card. Contains contact information and links  -->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Mike Saprykin
+                                <i class="material-icons right">close</i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title grey-text text-darken-4 -->
+                            <p class="medium-small grey-text">
+                                Front-end developer, Buddhasoft
+                            </p>
+                            <!-- /.medium-small grey-text -->
+                            <p>
+                                LinkedIn: 
+                                <a href="https://www.linkedin.com/in/mikesaprykin/">https://www.linkedin.com/in/mikesaprykin/</a>
+                            </p>
+                            <!-- /Linked in -->
+                            <p>
+                                Github:
+                                <a href="https://github.com/MikeSaprykin">https://github.com/MikeSaprykin</a>
+                            </p>
+                            <!-- /git -->
+                            <p>
+                                Phone:
+                                <a href="tel:+380636031952">+38 (063) 603 19 52</a>
+                            </p>
+                            <!-- /phone -->
+                            <p>
+                                Skype:
+                                <a href="skype:lsksaprykin">lsksaprykin</a>
+                            </p>
+                            <!-- /skype -->
+                            <p>
+                                <a href="mailto:mikesaprykin@gmail.com">mikesaprykin@gmail.com</a>
+                            </p>
+                            <!-- /email -->
+                            <p>
+                                Location: Kiev, Ukraine
+                            </p>
+                            <!-- /.location -->
+                        </div>
+                            <!-- /.card-reveal -->
+                    </div>
+                    <!-- /.card hoverable -->
+                </div>
+                <!-- /.col s12 m12 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#top-section -->
+
+    <!-- About me section. Contains description of the user and his skills visualized like
+        a progress bar -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col s12 m6">
+                    <div class="card light-blue darken-1">
+                        <!-- Card content which contains the description about user, his thoughts about
+                             web development and stuff he likes :-) -->
+                        <div class="card-content white-text">
+                            <span class="card-title">
+                                About me
+                            </span>
+                            <!-- /.card-title -->
+                            <div class="divider"></div>
+                            <!-- /.divider -->
+                            <p>
+                                My name is Mike Saprykin and I am a self-taught web developer from Kiev, Ukraine.
+                            </p>
+                            <p>
+                                I am here to learn and improve my skills.
+                            </p>
+                            <p>
+                                Also I would like to communicate and co-work with new, talented people, from whom I can
+                                study faster and more efficient.
+                            </p>
+                            <p>
+                                Here is also the portfolio of my own projects, make sure to check them out!
+                            </p>
+                            <p>
+                                Feel free to contact me via Facebook or Linkedin If you have any job or co-working
+                                offers
+                            </p>
+                        </div>
+                        <!-- /.card-content white-text -->
+                        <div class="card-action">
+                            <a href="portfolio.html">Portfolio</a>
+                        </div>
+                    </div>
+                    <!-- /.card light-blue darken-1 -->
+                </div>
+                <!-- /.col s12 m6 -->
+
+                <div class="col s12 m6">
+                    <!-- Card content which contains skills of the user in progress bar style -->
+                    <div class="card">
+                        <div class="card-content skills">
+                            <span class="card-title">
+                                My Skills
+                            </span>
+                            <!-- /.card-title -->
+                            <div class="divider"></div>
+                            <!-- /.divider -->
+                            <span class="orange-text lighten-1">
+                                HTML
+                            </span>
+                            <!-- /.orange-text lighten-1 -->
+                            <div class="progress orange lighten-4">
+                                <div class="determinate html orange lighten-1"></div>
+                                <!-- /.determinate orange lighten-1 -->
+                            </div>
+                            <!-- /.progress orange lighten-4 -->
+                            <span class="blue-text lighten-1">
+                                CSS
+                            </span>
+                            <!-- /.blue-text lighten-1 -->
+                            <div class="progress blue lighten-4">
+                                <div class="determinate css blue lighten-1"></div>
+                                <!-- /.determinate blue lighten-1 -->
+                            </div>
+                            <!-- /.progress blue lighten-4 -->
+                            <span class="amber-text">
+                                JavaScript
+                            </span>
+                            <!-- /.amber-text -->
+                            <div class="progress amber lighten-4">
+                                <div class="determinate js amber"></div>
+                                <!-- /.determinate amber -->
+                            </div>
+                            <!-- /.progress amber lighten-4 -->
+                            <span class="red-text">
+                                Angular
+                            </span>
+                            <!-- /.red-text -->
+                            <div class="progress red lighten-4">
+                                <div class="determinate angular red"></div>
+                                <!-- /.determinate red -->
+                            </div>
+                            <!-- /.progress red lighten-4 -->
+                            <span class="green-text">
+                                Python
+                            </span>
+                            <!-- /.green-text -->
+                            <div class="progress green lighten-4">
+                                <div class="determinate python green"></div>
+                                <!-- /.determinate green -->
+                            </div>
+                            <!-- /.progress green lighten-4 -->
+                        </div>
+                        <!-- /.card-content skills -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col s12 m6 card -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#about -->
+
+    <!-- Section with portfolio items of the user-->
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <h3 class="center-align">
+                    My Portfolio
+                </h3>
+                <!-- /.center-align -->
+
+                <!-- Single portfolio item -->
+                <div class="col m4">
+                    <div class="card">
+                        <!-- Image of the project, set in style.css -->
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="activator portfolio-image"></div>
+                            <!-- /.activator portfolio-image -->
+                        </div>
+                        <!-- /.card-image waves-effect waves-block waves-light -->
+                        <!-- Content with title and link to the project -->
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                First Project
+                                <i class="material-icons right">
+                                    more_vert
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title activator grey-text text-darken-4 -->
+                            <p>
+                                <!-- Here should be a link to the project -->
+                                <a href="#">Project link</a>
+                            </p>
+                        </div>
+                        <!-- /.card-content -->
+                        <!-- Content about the project, that will be revealed after click on
+                             any element with class .activator in this card -->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                First project
+                                <i class="material-icons right">
+                                    close
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title grey-text text-darken-4 -->
+                            <p>
+                                Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                        <!-- /.card-reveal -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col m4 -->
+
+                <!-- Single portfolio item -->
+                <div class="col m4">
+                    <div class="card">
+                        <!-- Image of the project, set in style.css -->
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="activator portfolio-image"></div>
+                            <!-- /.activator portfolio-image -->
+                        </div>
+                        <!-- /.card-image waves-effect waves-block waves-light -->
+                        <!-- Content with title and link to the project -->
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                Second Project
+                                <i class="material-icons right">
+                                    more_vert
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title activator grey-text text-darken-4 -->
+                            <p>
+                                <!-- Here should be a link to the project -->
+                                <a href="#">Project link</a>
+                            </p>
+                        </div>
+                        <!-- /.card-content -->
+                        <!-- Content about the project, that will be revealed after click on
+                             any element with class .activator in this card -->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Second project
+                                <i class="material-icons right">
+                                    close
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title grey-text text-darken-4 -->
+                            <p>
+                                Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                        <!-- /.card-reveal -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col m4 -->
+
+                <!-- Single portfolio item -->
+                <div class="col m4">
+                    <div class="card">
+                        <!-- Image of the project, set in style.css -->
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="activator portfolio-image"></div>
+                            <!-- /.activator portfolio-image -->
+                        </div>
+                        <!-- /.card-image waves-effect waves-block waves-light -->
+                        <!-- Content with title and link to the project -->
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                Third Project
+                                <i class="material-icons right">
+                                    more_vert
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title activator grey-text text-darken-4 -->
+                            <p>
+                                <!-- Here should be a link to the project -->
+                                <a href="#">Project link</a>
+                            </p>
+                        </div>
+                        <!-- /.card-content -->
+                        <!-- Content about the project, that will be revealed after click on
+                             any element with class .activator in this card -->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Third project
+                                <i class="material-icons right">
+                                    close
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title grey-text text-darken-4 -->
+                            <p>
+                                Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                        <!-- /.card-reveal -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col m4 -->
+
+                <!-- Single portfolio item -->
+                <div class="col m4">
+                    <div class="card">
+                        <!-- Image of the project, set in style.css -->
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <div class="activator portfolio-image"></div>
+                            <!-- /.activator portfolio-image -->
+                        </div>
+                        <!-- /.card-image waves-effect waves-block waves-light -->
+                        <!-- Content with title and link to the project -->
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">
+                                Fourth Project
+                                <i class="material-icons right">
+                                    more_vert
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title activator grey-text text-darken-4 -->
+                            <p>
+                                <!-- Here should be a link to the project -->
+                                <a href="#">Project link</a>
+                            </p>
+                        </div>
+                        <!-- /.card-content -->
+                        <!-- Content about the project, that will be revealed after click on
+                             any element with class .activator in this card -->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">
+                                Fourth project
+                                <i class="material-icons right">
+                                    close
+                                </i>
+                                <!-- /.material-icons right -->
+                            </span>
+                            <!-- /.card-title grey-text text-darken-4 -->
+                            <p>
+                                Here is some more information about this product that is only revealed once clicked on.
+                            </p>
+                        </div>
+                        <!-- /.card-reveal -->
+                    </div>
+                    <!-- /.card -->
+                </div>
+                <!-- /.col m4 -->
+
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#portfolio -->
+
+    <!-- Contacts section, contains card with user contacts and links to profiles -->
+    <section id="contacts">
+        <div class="container">
+            <div class="row">
+                <div class="col m8 offset-m2">
+                    <div class="card hoverable center-align">
+                        <!-- Contacts card content, contains user contacts and icons -->
+                        <div class="card-content">
+                            <h5 class="card-title">
+                                My Contacts
+                            </h5>
+                            <!-- /.card-title -->
+                            <div class="divider"></div>
+                            <!-- /.divider -->
+                        </div>
+                        <!-- /.card-content -->
+                        <p>
+                            Phone: 
+                            <a href="tel:+380636031952">+38 (063) 603 19 52</a>
+                        </p>
+                        <p>
+                            Email:
+                            <a href="mailto:mikesaprykin@gmail.com">mikesaprykin@gmail.com</a>
+                        </p>
+                        <div>
+                            <a href="skype:lsksaprykin">
+                                <img src="images/skype.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/facebook.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/youtube.png">
+                            </a>
+                            <a href="#">
+                                <img src="images/google.png">
+                            </a>
+                        </div>
+                    </div>
+                    <!-- /.card hoverable center-align -->
+                </div>
+                <!-- /.col m8 offset-m2 -->
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /#contacts -->
+
+</main>
+<!-- /.main-content -->
+
+<!-- Page footer, contains copyright text -->
+<footer id="footer" class="page-footer blue-grey lighten-1">
+    <div class="container">
+        <div class="row">
+            <div class="col l6 s12">
+                <p class="grey-text text-lighten-4">
+                    You can use rows and columns here to organize your footer
+                    content.
+                </p>
+                <!-- /.grey-text text-lighten-4 -->
+            </div>
+            <!-- /.col l6 s12 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+    <div class="footer-copyright">
+        <div class="container">
+            © 2016 Copyright Text
+        </div>
+        <!-- /.container -->
+    </div>
+    <!-- /.footer-copyright -->
+</footer>
+<!-- /#footer.page-footer blue-grey lighten-1 -->
+
+</body>
+</html>
