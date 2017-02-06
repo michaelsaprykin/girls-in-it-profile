@@ -50,6 +50,7 @@ To run the project, just simply go
   #open index.html in your browser
 ```
 Where to start:
+=====
   * Checkout the project [here](https://mikesaprykin.github.io/girls-in-it-profile/)
   * Check the event [here](https://www.facebook.com/events/371192389902221/)
   * Check Girls In IT Foundation [Facebook](https://www.facebook.com/GirlsinITfoundation/) and [WebSite](http://girlsitfoundation.wixsite.com/giit)
